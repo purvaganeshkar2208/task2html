@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box ;
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(248, 177, 210);
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            padding:15px ;
+            border: 1px skyblue;
+            border-radius: 5px;
+        }
+        input{
+            margin: 5px 0px;
+            height:35px;
+            padding:7px ;
+            background-color: rgb(156, 213, 213);
+            border-radius: 3px;
+            
+        }
+        button{
+            background-color: rgb(253, 253, 162);
+            height: 35px;
+            margin: 5px 0px;
+            border: none;
+            border-radius: 5px;
+            color: rgb(233, 71, 7);
+        }
+        button:hover{
+            background-color: rgb(88, 201, 242);
+            color: rgb(112, 6, 144);
+        }
+        .GMAIL{
+            color: rgb(137, 219, 13);
+            font-size: 100PX;
+            font-style: calc();
+            font-weight: bolder;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+            width: 100%;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            right: 0%;
+            bottom: 0%;
+           
+        }
+        
+
+        #sign-in-button{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 10px 20px;
+            border: 2px solid darkcyan;
+            border-radius: 5px;
+            background-color: orangered;
+            color: whitesmoke;
+            cursor: pointer;
+        }
+        #sign-in-button:hover{
+            background-color: rgb(103, 103, 199);
+            color: aliceblue;
+        }
+
+
+        
+    </style>
+    
+</head>
+
+<body>
+
+    
+    <div class="container">
+        <input type="email"
+        placeholder="email">
+        <input type="password"
+        placeholder="password">
+        <button>login</button>
+
+    </div>
+
+    <button id="sign-in-button">Sign In</button>
+    <div class="GMAIL">
+        G
+        
+    </div>
+    
+    
+</body>
+</html>
